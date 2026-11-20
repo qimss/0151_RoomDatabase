@@ -1,4 +1,4 @@
-package com.example.mobileapp.uicontroller
+package com.example.mobileapp.view.route
 
 import com.example.mobileapp.R
 

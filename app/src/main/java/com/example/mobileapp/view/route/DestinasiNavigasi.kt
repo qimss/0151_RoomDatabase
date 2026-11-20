@@ -1,4 +1,4 @@
-package com.example.mobileapp.uicontroller
+package com.example.mobileapp.view.route
 
 interface DestinasiNavigasi {
     val route: String
