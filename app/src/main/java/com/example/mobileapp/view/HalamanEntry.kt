@@ -24,8 +24,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.mobileapp.R
-import com.example.mobileapp.uicontroller.DestinasiEntry
-import com.example.mobileapp.uicontroller.SiswaTopAppBar
+import com.example.mobileapp.view.route.DestinasiEntry
+import com.example.mobileapp.view.uicontroller.SiswaTopAppBar
 import com.example.mobileapp.viewmodel.DetailSiswa
 import com.example.mobileapp.viewmodel.EntryViewModel
 import com.example.mobileapp.viewmodel.PenyediaViewModel
