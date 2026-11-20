@@ -10,7 +10,7 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
-
+import com.example.mobileapp.view.route.DestinasiDetailSiswa
 
 class EditViewModel (
     savedStateHandle: SavedStateHandle,
@@ -25,7 +25,7 @@ class EditViewModel (
                 uiStateSiswa = repositoriSiswa.getSiswaStream(idSiswa)
                     .filterNotNull()
                     .first()
-                    .toUiStateSiswa(true)
+                    .toUIStateSiswa(true)
             }
         }
     fun updateUiState(detailSiswa: DetailSiswa){
